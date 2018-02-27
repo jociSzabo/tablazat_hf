@@ -8,13 +8,21 @@
         table, td, th{
 			border: 1px solid;
 		}
-		thead {
-			background-color: green;
-			color: white;
-		}
-		tfoot{
-			background-color: grey;
-        }
+	thead {
+		background-color: green;
+		color: white;
+	}
+	tfoot{
+		background-color: grey;
+	td{
+		text-align: right;		
+	}
+	td:first-of-type {
+		text-align: left;
+	}
+	tbody tr:nth-child(2n-1) {
+		background-color: lightgrey;
+	}			
     </style>
 </head>
     <table>
